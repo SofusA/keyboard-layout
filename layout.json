@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "notes": "English / Danish hybrid keyboard layout",
+  "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "idobao/id75/v2",
-  "keymap": "sofukeyboard",
+  "keymap": "sofukeyboard18",
   "layout": "LAYOUT_ortho_5x15",
   "layers": [
     [
@@ -28,7 +28,7 @@
       "KC_E",
       "KC_R",
       "KC_T",
-      "KC_MINS",
+      "LSFT(KC_0)",
       "KC_F5",
       "KC_SLSH",
       "KC_Y",
@@ -68,14 +68,14 @@
       "KC_UP",
       "KC_ENT",
       "MO(2)",
-      "KC_LGUI",
       "KC_LALT",
+      "KC_LGUI",
       "KC_LCTL",
       "KC_COMM",
       "KC_DOT",
       "KC_SPC",
+      "MO(1)",
       "KC_LSFT",
-      "KC_LGUI",
       "KC_BSPC",
       "KC_DEL",
       "MO(3)",
@@ -105,7 +105,7 @@
       "LSFT(KC_E)",
       "LSFT(KC_R)",
       "LSFT(KC_T)",
-      "LSFT(KC_0)",
+      "KC_MINS",
       "KC_NO",
       "LSFT(KC_SLSH)",
       "LSFT(KC_Y)",
@@ -151,7 +151,7 @@
       "KC_NUBS",
       "LSFT(KC_NUBS)",
       "KC_NO",
-      "KC_NO",
+      "KC_TRNS",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -315,5 +315,5 @@
       "KC_NO"
     ]
   ],
-  "author": "Sofus"
+  "author": ""
 }
